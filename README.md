@@ -9,6 +9,8 @@ self.tableView.av_footer = [AVHeaderRefresh headerRefreshWithScrollView:self.tab
     }];
 ```
 
+
+
 ## 2 上拉集成，请查看Test2TableViewController 示例代码
 ```objc
 self.tableView.av_footer = [AVFooterRefresh footerRefreshWithScrollView:self.tableView footerRefreshingBlock:^{
